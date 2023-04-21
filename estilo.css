@@ -48,7 +48,7 @@ body {
 }
 
 #container {
-	background-color: #CCCCCC;
+	background-color: #BBB;
 	border-radius: 10px;
 	box-shadow: 0 0 10px #000, 0 0 8px #000, 0 0 5px #000;
 	padding: 20px;
@@ -137,8 +137,8 @@ h3{
 	color: #E78700;
 	font-family: Verdana;
 	text-align: center;
-	text-shadow: 0px 1px 0px #000, 1px 0px 0px #000, -1px 0px 0px #000,0px -1px 0px #000, 
-					1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, -1px -1px 0px #000;
+	text-shadow: 0px 1px 1px #666, 1px 0px 1px #666, -1px 0px 1px #666,0px -1px 1px #666, 
+					1px 1px 1px #666, 1px -1px 1px #666, -1px 1px 1px #666, -1px -1px 1px #666;
 	font-size: 36px;
 	padding: 1px;
 	margin-top:15px;
@@ -162,8 +162,6 @@ a {
 b {
 	color: #E78700;
 	font-family: Verdana;
-	text-shadow: 0px 1px 0px #000, 1px 0px 0px #000, -1px 0px 0px #000,0px -1px 0px #000, 
-					1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, -1px -1px 0px #000;
 }
 
 i {
