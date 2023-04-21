@@ -37,14 +37,53 @@ body {
 .indice {
 	display: block;
 	color: #E78700;
-	border-color:#EEEEEE;
+	background-color: transparent;
 	font-family: Verdana;
-	font-size: 28px;
+	font-size: 25px;
 	width:100%;
+	border: none;
 	text-align: left;
 	margin-top:4px;
 	margin-bottom:4px;
 
+}
+
+.indice:hover {
+	display: block;
+	color: #0087E7;
+	background-color: transparent;
+	font-family: Verdana;
+	font-size: 25px;
+	width:100%;
+	border: none;
+	text-align: left;
+	margin-top:4px;
+	margin-bottom:4px;
+
+}
+
+.sopa{
+	color: #E78700;
+	background-color: transparent;
+	font-family: Verdana;
+	font-size: 22px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color:#999;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.sopa:hover{
+	color: #0087E7;
+	background-color: transparent;
+	font-family: Verdana;
+	font-size: 22px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color:#999;
+	padding-left:10px;
+	padding-right:10px;
 }
 
 #container {
