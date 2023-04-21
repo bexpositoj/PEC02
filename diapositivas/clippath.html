@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+ 
+
+    <style>
+
+    * {
+
+        box-sizing: border-box;
+
+    }
+
+    #clipimages {
+
+
+        position: relative;
+        cursor:col-resize;
+		padding: 0px;
+
+    }
+
+    #clipimages>img {
+		width:800px;
+		height:400px;
+		margin: auto;
+        position: absolute;
+		padding: 0px;
+        top:0;
+
+    }
+
+    #clipimages>img:nth-child(2) {
+
+        clip-path:inset(0 0 0 50%);
+
+    }
+
+    #clipimages>span {
+
+        position: relative;
+
+        display: inline-block;
+
+        height:100%;
+
+        left:50%;
+
+        border-right:1px solid white;
+
+    }
+
+    </style>
+
+</head>
+
+ 
+
+<body>
+
+ 
+
+<div id="clipimages">
+
+    <img src="../img/animaticframe.jpg">
+
+    <img src="../img/finalframe.jpg">
+
+    <span></span>
+
+</div>
+
+ 
+
+</body>
+
+</html>
+
+ 
+
+<script>
+
+const img2=document.querySelectorAll("img")[1];
+
+const image=document.getElementById("clipimages");
+
+const line=image.querySelector("span");
+
+let clicked=false;
+
+ 
+
+/**
+
+ * Evento que se ejecuta cuando pulsamos el mouse
+
+ */
+
+function down(e) {
+
+    // activamos la variable clicked a true
+
+    clicked=true;
+
+    move(e);
+
+    e.preventDefault();
+
+}
+
+ 
+
+/**
+
+ * Evento que se ejecuta cuando pulsamos el mouse y cuando lo movemos
+
+ */
+
+function move(e) {
+
+    // Si hemos clicado
+
+    if (clicked==true && e.offsetX) {
+
+ 
+
+        // movemos la linea
+
+        line.style.left=e.offsetX+"px";
+
+ 
+
+        // modificamos el clipPath de la segunda imagen
+
+        img2.style.clipPath="inset(0 0 0 "+e.offsetX+"px)";
+
+    }
+
+}
+
+ 
+
+/**
+
+ * Evento que se ejecuta cuando soltamos el mouse
+
+ */
+
+ function up(e) {
+
+    // activamos la variable clicked a false
+
+    clicked=false;
+
+}
+
+ 
+
+// Creamos un evento para cuando pulsamos el mouse, cuando
+
+// lo movemos y para cuando lo soltamos
+
+image.onmousedown=down;
+
+image.onmousemove=move;
+
+image.onmouseup=up;
+
+</script>
