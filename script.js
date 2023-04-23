@@ -72,7 +72,7 @@ function anteriorDiapositiva() {
 	}
 	mostrarDiapositiva();
 }
-
+ 
 // Cambiar index
 function Diapositiva ( i ) {
 
