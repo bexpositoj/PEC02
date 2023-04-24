@@ -89,8 +89,8 @@ body {
 #container {
 	background-color: #BBB;
 	border-radius: 10px;
-	box-shadow: 0 0 10px #000, 0 0 8px #000, 0 0 5px #000;
-	padding: 20px;
+	box-shadow: 0 0 10px #fff, 0 0 8px #fff, 0 0 5px #fff;
+	padding: 25px;
 	min-width: 1000px;
 	max-width: 1000px;
 	margin: auto;
