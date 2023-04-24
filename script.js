@@ -81,7 +81,7 @@ function Diapositiva ( i ) {
 }
 
 function sopa() {
-	iframes.innerHTML = "<div class=\"frame\">&nbsp;<iframe src=\"https://h5p.org/h5p/embed/1373821\" allowfullscreen=\"allowfullscreen\" title=\"Sopa de letras\"></iframe><script src=\"https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js\" charset=\"UTF-8\"></script></div>";
+	iframes.innerHTML = "<div class=\"frame\">&nbsp;<iframe src=\"https://h5p.org/h5p/embed/1373821\" height=\"860\" title=\"Sopa de letras\"></iframe><script src=\"https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js\" charset=\"UTF-8\"></script></div>";
 }
 
 
