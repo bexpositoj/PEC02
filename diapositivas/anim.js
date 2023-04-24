@@ -48,9 +48,7 @@ function anteriorimg() {
 
 
 // Precarga de imagenes
-for(index = 10; index > 1; index--) mostrarimg();
-
-mostrarimg();
+for(index = 10; index >= 1; index--) mostrarimg();
 
 
 // Inputs para cambiar de imgs.
