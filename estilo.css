@@ -305,7 +305,7 @@ i {
 
 .quiz {
 	width:800px;
-	max-height:305px;
+	height:300px;
 	font-size:18px;
 	font-family: Verdana;
 }
