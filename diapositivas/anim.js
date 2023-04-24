@@ -1,4 +1,4 @@
-// Almacenamos
+// Variables base
 var imgae = document.getElementById("minitabla");
 var index = 0;
 
@@ -23,7 +23,6 @@ const imgcode = [
 
 // Muestra la img
 function mostrarimg() {
-	
 	imgae.innerHTML = imgcode[index];
 }
 
@@ -48,12 +47,12 @@ function anteriorimg() {
 }
 
 
-// Muestra la primera img
+// Precarga de imagenes
+for(index = 10; index > 1; index--) mostrarimg();
+
 mostrarimg();
 
 
-// Inputs para cambiar de imgs, bien por clics o por teclas de cursor.
-
-
+// Inputs para cambiar de imgs.
 document.getElementById('adelante').addEventListener('click', siguienteimg);
 document.getElementById('atras').addEventListener('click', anteriorimg);
