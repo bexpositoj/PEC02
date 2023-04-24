@@ -87,10 +87,12 @@ body {
 }
 
 #container {
-	background-color: #444;
+	background-color: #404040;
 	border-radius: 10px;
 	box-shadow: 0 0 30px #fff, 0 0 2px #fff, 0 0 10px #fff;
-	padding: 25px;
+	padding: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
 	min-width: 1000px;
 	max-width: 1000px;
 	margin: auto;
