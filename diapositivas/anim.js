@@ -50,6 +50,7 @@ function anteriorimg() {
 // Precarga de imagenes
 for(index = 10; index >= 1; index--) mostrarimg();
 
+mostrarimg();
 
 // Inputs para cambiar de imgs.
 document.getElementById('adelante').addEventListener('click', siguienteimg);
