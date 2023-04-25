@@ -82,7 +82,6 @@ function Diapositiva ( i ) {
 
 function sopa() {
 	iframes.innerHTML = "<div class=\"frame\"><iframe src=\"https://h5p.org/h5p/embed/1373821\" height=\"860\" title=\"Sopa de letras\"></iframe><script src=\"https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js\" charset=\"UTF-8\"></script></div>";
-	elemento.classList.toggle('container');
 }
 
 
@@ -100,23 +99,23 @@ document.addEventListener('keydown', function(event) {
 	if (event.key === 'ArrowRight' && right === false ) {
 		siguienteDiapositiva(); 
 		right = true; 
-		elemento.classList.toggle('container');
+		element.classList.toggle('container');
 	}
 	else if (event.key === 'ArrowLeft' && left === false ) {  
 		anteriorDiapositiva(); 
 		left = true; 
-		elemento.classList.toggle('container');
+		element.classList.toggle('container');
 	}
 
 });
 document.addEventListener('keyup', function(event) {
 	if (event.key === 'ArrowRight') {
 		right = false;
-		elemento.classList.toggle('container');
+		element.classList.toggle('container');
 	}
 	else if (event.key === 'ArrowLeft') {
 		left = false;
-		elemento.classList.toggle('container');
+		element.classList.toggle('container');
 	}
 
 });
