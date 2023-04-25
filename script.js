@@ -99,23 +99,19 @@ document.addEventListener('keydown', function(event) {
 	if (event.key === 'ArrowRight' && right === false ) {
 		siguienteDiapositiva(); 
 		right = true; 
-		element.classList.toggle('container');
 	}
 	else if (event.key === 'ArrowLeft' && left === false ) {  
 		anteriorDiapositiva(); 
 		left = true; 
-		element.classList.toggle('container');
 	}
 
 });
 document.addEventListener('keyup', function(event) {
 	if (event.key === 'ArrowRight') {
 		right = false;
-		element.classList.toggle('container');
 	}
 	else if (event.key === 'ArrowLeft') {
 		left = false;
-		element.classList.toggle('container');
 	}
 
 });
