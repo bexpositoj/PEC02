@@ -266,12 +266,16 @@ i {
 	padding: 0px;
 	width:800px;
 	height:800px;
+	animation-name: aparecer-anim;
+	animation-duration: 1s;
 }
 .diapositiva2 {
 	margin: auto;
 	padding: 0px;
 	width:1000px;
 	height:150px;
+	animation-name: aparecer-anim;
+	animation-duration: 1s;
 }
 
 .centertext {
@@ -327,4 +331,11 @@ i {
 	max-height:600px;
  }
  
- 
+ @keyframes aparecer-anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
