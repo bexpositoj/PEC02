@@ -5,11 +5,6 @@ html{
 }
 
 
-#generalbody {
-	display: grid;
-	place-items: center;
-}
-
 #cuerpo {
 	padding:0px;
 	margin:0px;
