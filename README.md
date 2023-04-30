@@ -19,4 +19,4 @@ Relato ensayo interactivo sobre la remediación de Animación 2D con OpenToonz.
 
 ----
 
-Licencia: Material Creative Commons desarrollado bajo licencia CC BY-SA 4.0.
+Licencia: Material Creative Commons desarrollado bajo licencia CC BY-SA 4.0. Imágenes BY [UOC](https://www.uoc.edu/) 
