@@ -5,8 +5,9 @@ html{
 }
 
 
-body {
-
+#generalbody {
+	display: grid;
+	place-items: center;
 }
 
 #cuerpo {
