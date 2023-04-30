@@ -7,10 +7,13 @@ Centro: Universitat Oberta de Catalunya (UOC)
 Asignatura: Cultura digiral - Grado TIDM  
 Fecha: 26/04/2023  
 
+![Logo UOC](https://bexpositoj.github.io/PEC02/img/uoclogo.png)  
+  
+ 
 ## Planteamiento
 Relato ensayo interactivo sobre la remediación de Animación 2D con OpenToonz.
 
-![Logo UOC](https://bexpositoj.github.io/PEC02/img/uoclogo.png) 
+
 
 
 
