@@ -2,14 +2,10 @@
 
 
 
-Autor: Benajín Expóstio Jaramillo
-
-Centro: Universitat Oberta de Catalunya (UOC)
-
-Asignatura: Cultura digiral - Grado TIDM
-
-Fecha: 26/04/2023
-##
+Autor: Benajín Expóstio Jaramillo  
+Centro: Universitat Oberta de Catalunya (UOC)  
+Asignatura: Cultura digiral - Grado TIDM  
+Fecha: 26/04/2023  
 
 ## Planteamiento
 Relato ensayo interactivo sobre la remediación de Animación 2D con OpenToonz.
